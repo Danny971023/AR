@@ -1,0 +1,14 @@
+<model-viewer src="紅球修復過  使用.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1" auto-rotate>
+    <button class="Hotspot" slot="hotspot-2" data-position="0.005136213275502242m 0.2446918069477981m -3.8178495828459793m" data-normal="-6.938893903907227e-18m -1.1920930131914526e-7m -0.9999999999999929m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">寶貝球</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
